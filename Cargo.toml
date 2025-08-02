@@ -1,0 +1,20 @@
+[package]
+name = "lunka-src"
+description = "Crate for building Lua 5.4.8 with various configurable parameters"
+version = "5.4.8"
+edition = "2024"
+license = "MIT"
+authors = ["b0mbie"]
+
+[workspace]
+members = [
+	"test-crate",
+]
+
+[dependencies]
+cc = "1.2.31"
+current_platform = "0.2.0"
+
+[features]
+default = []
+parallel = ["cc/parallel"]

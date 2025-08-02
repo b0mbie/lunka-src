@@ -1,0 +1,7 @@
+[package]
+name = "test-crate"
+edition = "2024"
+publish = false
+
+[build-dependencies]
+lunka-src = { path = ".." }

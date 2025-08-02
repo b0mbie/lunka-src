@@ -1,0 +1,5 @@
+This is a modified distribution of Lua 5.4.8, which:
+- includes additions to `luaconf.h` to make it work with `LuaConf`,
+- splits sources and headers,
+- removes binary sources, and
+- removes Makefiles.
