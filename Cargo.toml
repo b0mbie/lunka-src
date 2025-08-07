@@ -4,7 +4,10 @@ description = "Crate for building Lua 5.4.8 with various configurable parameters
 version = "5.4.8"
 edition = "2024"
 license = "MIT"
-authors = ["b0mbie"]
+authors = ["[aka]bomb"]
+repository = "https://github.com/b0mbie/lunka-src"
+documentation = "https://docs.rs/lunka-src"
+keywords = ["lua"]
 
 [workspace]
 members = [
