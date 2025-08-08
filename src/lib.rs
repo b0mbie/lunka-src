@@ -278,4 +278,9 @@ impl Build {
 		}
 		self
 	}
+
+	/// Use 32-bit integers and floats despite what the platform is.
+	pub fn use_32_bits(&mut self) -> &mut Self {
+		self.define_flag("LUNKA_32BITS")
+	}
 }
