@@ -1,7 +1,7 @@
 [package]
 name = "lunka-src"
 description = "Crate for building Lua 5.4.8 with various configurable parameters"
-version = "5.4.8"
+version = "54.8.0"
 edition = "2024"
 license = "MIT"
 authors = ["[aka]bomb"]
